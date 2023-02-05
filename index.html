@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sofa Margot II - Rosé</title>
+</head>
+<body>
+  <div id="app">
+    <div id="product-image">
+      <img class="rotate-icon" src="assets/360-icon.png" alt="">
+      <img class='close-icon'src="assets/close.png" alt="">
+      <img class="sofa" width="450" src="assets/sofa.png" alt="Sofa alcochoado na cor rosé com os pés na cor marrom">
+    </div>
+
+    <div>
+      <div id="product-infos">
+        <div class="code">CÓDIGO: 42404</div>
+        <h1 class="name">Sofá Margot II - Rosé</h1>
+        <div class="price">R$ 4.000</div>
+      </div>
+      <button id="add-to-cart">Adicionar á cesta</button>
+    </div>
+  </div>  
+
+  <script>
+    const rotateIcon = document.querySelector('#product-image .rotate-icon');
+    const closeIcon = document.querySelector('#product-image .close-icon');
+    const image = document.querySelector('#product-image .sofa');
+    const srcPath = 'assets/sofa';
+
+    rotateIcon.addEventListener('click', handleActive360Click, false);
+    closeIcon.addEventListener('click', handleClose360Click, false);
+
+    function handleActive360Click(){
+      image.attributes.src.nodeValue = srcPath + '.gif';
+      closeIcon.style.display = 'block';
+      rotateIcon.style.display = 'none';
+    }
+
+    function handleClose360Click(){
+      image.attributes.src.nodeValue = srcPath + '.png';
+      closeIcon.style.display = 'none';
+      rotateIcon.style.display = 'block';
+    }
+
+  </script>
+</body>
+</html>
