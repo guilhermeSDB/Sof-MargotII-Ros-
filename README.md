@@ -1,11 +1,13 @@
-# Soft Margot II Rosé
+# Sofa Margot II Rosé
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 <p align="center">
   <img style="border-radius:10%" width="100%" height="100%" src="assets/capa.png" alt="exemplo imagem">
 </p>
 
-> Desafio 02 Rockseat - Soft Margot II Rosé.
+> Desafio 02 Rockseat - Sofa Margot II Rosé.
+
+Preview: 
 
 ## 🤝 Colaboradores
 
