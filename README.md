@@ -7,7 +7,7 @@
 
 > Desafio 02 Rockseat - Sofa Margot II Rosé.
 
-Preview: 
+### Preview: https://guilhermesdb.github.io/Soft-Margot-II-Rose/
 
 ## 🤝 Colaboradores
 
