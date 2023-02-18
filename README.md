@@ -7,7 +7,13 @@
 
 > Desafio 02 Rockseat - Sofa Margot II Rosé.
 
-### Preview: https://guilhermesdb.github.io/Sofa-Margot-II-Rose/
+## [Ver Preview](https://guilhermesdb.github.io/Sofa-Margot-II-Rose/)
+
+## 👨🏻‍💻 Techs 
+
+ <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,javascript, gsap" />
+</a>
 
 ## 🤝 Colaboradores
 
